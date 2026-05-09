@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { FaArrowRight, FaChevronDown } from "react-icons/fa6";
-import NewsImg1 from '../../public/images/Accordian/1.avif'; 
-import NewsImg2 from '../../public/images/Accordian/2.avif'; 
-import NewsImg3 from '../../public/images/Accordian/3.jpg'; 
+import NewsImg1 from '/images/Accordian/1.avif'; 
+import NewsImg2 from '/images/Accordian/2.avif'; 
+import NewsImg3 from '/images/Accordian/3.jpg'; 
 
 const newsData = [
   {

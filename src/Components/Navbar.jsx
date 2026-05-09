@@ -2,17 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaChevronDown, FaArrowRight, FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 import { FiSearch, FiArrowUpRight } from "react-icons/fi";
-import LogoMain from '../../public/images/Navbar/logo.svg';
-import IconDairy from '../../public/images/Navbar/Catagories/Dairy.avif';
-import IconDesserts from '../../public/images/Navbar/Catagories/Desserts.avif';
-import IconSnacks from '../../public/images/Navbar/Catagories/Snacks.avif';
-import IconSamosas from '../../public/images/Navbar/Catagories/Samosas.avif';
-import IconVegan from '../../public/images/Navbar/Types/Vegan.avif';
-import IconGelatinFree from '../../public/images/Navbar/Types/GelatinFree.avif';
-import IconGlutenFree from '../../public/images/Navbar/Types/GlutenFree.avif';
-import IconHalal from '../../public/images/Navbar/Types/Halal.avif';
-import BurgerFeatured from '../../public/images/VeggieBurger.avif';
-import BadgeCanadianFamily from '../../public/images/MadeInCanada_Yellow.avif';
+import LogoMain from '/images/Navbar/logo.svg';
+import IconDairy from '/images/Navbar/Catagories/Dairy.avif';
+import IconDesserts from '/images/Navbar/Catagories/Desserts.avif';
+import IconSnacks from '/images/Navbar/Catagories/Snacks.avif';
+import IconSamosas from '/images/Navbar/Catagories/Samosas.avif';
+import IconVegan from '/images/Navbar/Types/Vegan.avif';
+import IconGelatinFree from '/images/Navbar/Types/GelatinFree.avif';
+import IconGlutenFree from '/images/Navbar/Types/GlutenFree.avif';
+import IconHalal from '/images/Navbar/Types/Halal.avif';
+import BurgerFeatured from '/images/VeggieBurger.avif';
+import BadgeCanadianFamily from '/images/MadeInCanada_Yellow.avif';
 
 const productCategories = [
   { name: 'DAIRY', icon: IconDairy },

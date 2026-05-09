@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import VeggieBurger from '../../public/images/Dishes/veggieburger.avif';
-import Paneer from '../../public/images/Dishes/malaipaneer.avif';
-import Rasmalai from '../../public/images/Dishes/Rasmalai.avif';
-import Dahi from '../../public/images/Dishes/dahi.avif';
-import Kabab from '../../public/images/Dishes/kabab.avif';
-import Samosa from '../../public/images/Dishes/samosa-pink.avif';
-import Tikki from '../../public/images/Dishes/tikki.avif';
-import Barfi from '../../public/images/Dishes/khoa-barfi.avif';
-import RotatingBgShape from '../../public/images/mandala-spin.svg';
+import VeggieBurger from '/images/Dishes/veggieburger.avif';
+import Paneer from '/images/Dishes/malaipaneer.avif';
+import Rasmalai from '/images/Dishes/Rasmalai.avif';
+import Dahi from '/images/Dishes/dahi.avif';
+import Kabab from '/images/Dishes/kabab.avif';
+import Samosa from '/images/Dishes/samosa-pink.avif';
+import Tikki from '/images/Dishes/tikki.avif';
+import Barfi from '/images/Dishes/khoa-barfi.avif';
+import RotatingBgShape from '/images/mandala-spin.svg';
 
 const dietaryOptions = [
   {

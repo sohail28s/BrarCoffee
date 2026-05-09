@@ -7,38 +7,38 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Samosa25pcs from '../../public/images/Dishes/samosa-25pcs.avif';
-import SamosaMedium from '../../public/images/Dishes/samosa-plasticpacked.avif';
-import SamosaBox from '../../public/images/Dishes/samosa-box.avif';
-import SamosaPack from '../../public/images/Dishes/samosa-pack.avif';
-import Superfan1 from '../../public/images/Dishes/superfan.avif'
-import Superfan2 from '../../public/images/Dishes/superfan2.avif'
-import SamosaOrange from '../../public/images/Dishes/samosa-orange.avif'
-import SamosaPink from '../../public/images/Dishes/samosa-pink.avif'
-import SamosaGreen from '../../public/images/Dishes/samosa-green.avif'
-import Kabab from '../../public/images/Dishes/Kabab.avif'
-import KajuKatli from '../../public/images/Dishes/KajuKatli.avif'
-import MilkCake from '../../public/images/Dishes/milkcake.avif'
-import MotiChorLadoo from '../../public/images/Dishes/motichoor.avif'
-import MangoRasmalai from '../../public/images/Dishes/mango-rasmalai.avif'
-import BesanBarfi from '../../public/images/Dishes/besan-barfi.avif'
-import KhoaBarfi from '../../public/images/Dishes/khoa-barfi.avif'
-import Rasmalai from '../../public/images/Dishes/Rasmalai.avif'
-import Makhani from '../../public/images/Dishes/Makhani.avif'
-import MalaiPaneer from '../../public/images/Dishes/MalaiPaneer.avif'
-import Ghee from '../../public/images/Dishes/ghee.avif'
-import ShiriKhand from '../../public/images/Dishes/shirikhand.avif'
-import Dahi from '../../public/images/Dishes/dahi.avif'
+const Samosa25pcs = '/images/Dishes/samosa-25pcs.avif';
+const SamosaMedium = '/images/Dishes/samosa-plasticpacked.avif';
+const SamosaBox = '/images/Dishes/samosa-box.avif';
+const SamosaPack = '/images/Dishes/samosa-pack.avif';
+const Superfan1 = '/images/Dishes/superfan.avif'
+const Superfan2 = '/images/Dishes/superfan2.avif'
+const SamosaOrange = '/images/Dishes/samosa-orange.avif'
+const SamosaPink = '/images/Dishes/samosa-pink.avif'
+const SamosaGreen = '/images/Dishes/samosa-green.avif'
+const Kabab = '/images/Dishes/kabab.avif'
+const KajuKatli = '/images/Dishes/kajukatli.avif'
+const MilkCake = '/images/Dishes/milkcake.avif'
+const MotiChorLadoo = '/images/Dishes/motichoor.avif'
+const MangoRasmalai = '/images/Dishes/mango-rasmalai.avif'
+const BesanBarfi = '/images/Dishes/besan-barfi.avif'
+const KhoaBarfi = '/images/Dishes/khoa-barfi.avif'
+const Rasmalai = '/images/Dishes/Rasmalai.avif'
+const Makhani = '/images/Dishes/Makhani.avif'
+const MalaiPaneer = '/images/Dishes/MalaiPaneer.avif'
+const Ghee = '/images/Dishes/ghee.avif'
+const ShiriKhand = '/images/Dishes/shirikhand.avif'
+const Dahi = '/images/Dishes/dahi.avif'
 
-import Blue from '../../public/images/svgs/blue.svg';
-import Star from '../../public/images/svgs/star.svg';
-import Purple from '../../public/images/svgs/purple.svg';
-import Orange from '../../public/images/svgs/orange.svg';
-import Yellow from '../../public/images/svgs/yellow.svg';
-import LeftArrowIcon from '../../public/images/svgs/leftarrow.svg';
-import RightArrowIcon from '../../public/images/svgs/rightarrow.svg';
-import CheckIcon from '../../public/images/svgs/tick.svg';
-import DropdownIcon from '../../public/images/svgs/dropdown.svg';
+const Blue = '/images/svgs/blue.svg';
+const Star = '/images/svgs/star.svg';
+const Purple = '/images/svgs/purple.svg';
+const Orange = '/images/svgs/orange.svg';
+const Yellow = '/images/svgs/yellow.svg';
+const LeftArrowIcon = '/images/svgs/leftarrow.svg';
+const RightArrowIcon = '/images/svgs/rightarrow.svg';
+const CheckIcon = '/images/svgs/tick.svg';
+const DropdownIcon = '/images/svgs/dropdown.svg';
 
 
 const categories = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee'; 
 import { FaInstagram, FaFacebookF, FaTiktok, FaArrowRight } from "react-icons/fa6";
-import Logo from '../../public/images/Navbar/logo.svg';
+import Logo from '/images/Navbar/logo.svg';
 
 
 const Footer = () => {

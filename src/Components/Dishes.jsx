@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaAngleRight } from "react-icons/fa6";
 
-import CanadaSticker from '../../public/images/CanadaStickerPurple.avif';
-import Group from '../../public/images/group.avif';
-import Celebrate from '../../public/images/celebrate.avif';
+import CanadaSticker from '/images/CanadaStickerPurple.avif';
+import Group from '/images/group.avif';
+import Celebrate from '/images/celebrate.avif';
 
 
 const Dishes = () => {

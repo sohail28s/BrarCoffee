@@ -1,5 +1,5 @@
 import React from 'react';
-import BgShape from '../../public/images/mandala-spin.svg'; 
+import BgShape from '/images/mandala-spin.svg'; 
 
 const SpinningWheel = () => {
   return (

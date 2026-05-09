@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa6";
-import StarIcon from '../../public/images/Newsletter/since1986.svg';  
-import MaroonBadge from '../../public/images/Newsletter/newimproved.svg'; 
-import OrangeBadge from '../../public/images/Newsletter/madeincanada.svg'; 
+import StarIcon from '/images/Newsletter/since1986.svg';  
+import MaroonBadge from '/images/Newsletter/newimproved.svg'; 
+import OrangeBadge from '/images/Newsletter/madeincanada.svg'; 
 
 const NewsletterCard = () => {
   return (

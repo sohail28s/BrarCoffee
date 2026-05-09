@@ -1,20 +1,20 @@
 import React from 'react';
 import { FaInstagram, FaFacebookF, FaTiktok, FaArrowRight } from "react-icons/fa6";
 import Marquee from 'react-fast-marquee';
-import Blue from '../../public/images/svgs/blue.svg';
-import Star from '../../public/images/svgs/star.svg';
-import Purple from '../../public/images/svgs/purple.svg';
-import Orange from '../../public/images/svgs/orange.svg';
-import Yellow from '../../public/images/svgs/yellow.svg';
+import Blue from '/images/svgs/blue.svg';
+import Star from '/images/svgs/star.svg';
+import Purple from '/images/svgs/purple.svg';
+import Orange from '/images/svgs/orange.svg';
+import Yellow from '/images/svgs/yellow.svg';
 
 
-import Post1 from '../../public/images/Footer/dahi.avif';
-import Post2 from '../../public/images/Footer/mango.avif';
-import Post3 from '../../public/images/Footer/rice.avif';
-import Post4 from '../../public/images/Footer/ghee.avif';
-import Post5 from '../../public/images/Footer/veggie.avif';
+import Post1 from '/images/Footer/dahi.avif';
+import Post2 from '/images/Footer/mango.avif';
+import Post3 from '/images/Footer/rice.avif';
+import Post4 from '/images/Footer/ghee.avif';
+import Post5 from '/images/Footer/veggie.avif';
 
-import BgShape from '../../public/images/mandala-spin.svg';
+import BgShape from '/images/mandala-spin.svg';
 import NewsletterCard from './Newsletter';
 
 const socialImages = [Post1, Post2, Post3, Post4, Post5];

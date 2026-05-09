@@ -3,20 +3,20 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { FaAngleRight } from "react-icons/fa6";
-import SparkleImg from '../../public/images/Hero/sparkle.svg'; 
-import BgShape1 from '../../public/images/Hero/bg1.avif'; 
-import BgShape2 from '../../public/images/Hero/bg2.avif'; 
-import BgShape3 from '../../public/images/Hero/bg3.avif'; 
-import BgShape4 from '../../public/images/Hero/bg4.avif'; 
-import Product1 from '../../public/images/Hero/kabab.png'; 
-import Product2 from '../../public/images/Hero/burger.png'; 
-import Product3 from '../../public/images/Hero/rasmalai.png'; 
-import Product4 from '../../public/images/Hero/dahi.png'; 
-import Badge1 from '../../public/images/Hero/canadapurple.png'; 
-import Badge2 from '../../public/images/Hero/paneer.png'; 
-import Badge3 from '../../public/images/Hero/canadagreen.png'; 
-import Badge4 from '../../public/images/Hero/canadablue.png'; 
-import Badge5 from '../../public/images/Hero/veg.png'; 
+import SparkleImg from '/images/Hero/sparkle.svg'; 
+import BgShape1 from '/images/Hero/bg1.avif'; 
+import BgShape2 from '/images/Hero/bg2.avif'; 
+import BgShape3 from '/images/Hero/bg3.avif'; 
+import BgShape4 from '/images/Hero/bg4.avif'; 
+import Product1 from '/images/Hero/kabab.png'; 
+import Product2 from '/images/Hero/burger.png'; 
+import Product3 from '/images/Hero/rasmalai.png'; 
+import Product4 from '/images/Hero/dahi.png'; 
+import Badge1 from '/images/Hero/canadapurple.png'; 
+import Badge2 from '/images/Hero/paneer.png'; 
+import Badge3 from '/images/Hero/canadagreen.png'; 
+import Badge4 from '/images/Hero/canadablue.png'; 
+import Badge5 from '/images/Hero/veg.png'; 
 
 const slidesData = [
   {
