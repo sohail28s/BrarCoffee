@@ -42,7 +42,7 @@ const DesktopMegaMenu = ({ isOpen, closeMenu }) => {
             <ul className="space-y-4">
               {productCategories.map((item, idx) => (
                 <li key={idx}>
-                  <Link to="/products" onClick={closeMenu} className="flex items-center justify-between group hover:bg-gray-50 p-2 rounded-xl transition-colors">
+                  <Link to="#" onClick={closeMenu} className="flex items-center justify-between group hover:bg-gray-50 p-2 rounded-xl transition-colors">
                     <div className="flex items-center gap-4">
                       {item.icon ? (
                         <img src={item.icon} alt={item.name} className="w-12 h-12 object-contain rounded-lg bg-blue-50/50" />
@@ -65,7 +65,7 @@ const DesktopMegaMenu = ({ isOpen, closeMenu }) => {
             <ul className="space-y-4">
               {productTypes.map((item, idx) => (
                 <li key={idx}>
-                  <Link to="/products" onClick={closeMenu} className="flex items-center justify-between group hover:bg-gray-50 p-2 rounded-xl transition-colors">
+                  <Link to="#" onClick={closeMenu} className="flex items-center justify-between group hover:bg-gray-50 p-2 rounded-xl transition-colors">
                     <div className="flex items-center gap-4">
                       <img src={item.icon} alt={item.name} className="w-12 h-12 object-contain rounded-lg" />
                       <span className="font-venice font-black text-lg text-gray-900">{item.name}</span>
@@ -85,7 +85,7 @@ const DesktopMegaMenu = ({ isOpen, closeMenu }) => {
                 <p className="font-degular text-white/90 text-sm mb-6 leading-relaxed">
                   Home-style frozen veggie burgers with an Indian-style twist. Deliciously seasoned with our secret masala spice blend, these burgers are packed with paneer, carrots, corn, and potatoes—egg free, 100% vegetarian.
                 </p>
-                <Link to="/product/veggie-burger" onClick={closeMenu} className="inline-flex items-center gap-3 bg-white text-black px-5 py-3 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
+                <Link to="#" onClick={closeMenu} className="inline-flex items-center gap-3 bg-white text-black px-5 py-3 rounded-full font-bold text-sm hover:bg-gray-100 transition-colors">
                   View Product
                   <div className="bg-black text-white w-6 h-6 rounded-full flex items-center justify-center">
                     <FaAngleRight />
@@ -149,10 +149,10 @@ const MobileMenu = ({ isOpen, closeMenu }) => {
               </div>
             </button>
 
-            <Link to="/recipes" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">Recipes</Link>
-            <Link to="/about" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">About Us</Link>
-            <Link to="/news" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">News</Link>
-            <Link to="/contact" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">Contact</Link>
+            <Link to="#" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">Recipes</Link>
+            <Link to="#" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">About Us</Link>
+            <Link to="#" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">News</Link>
+            <Link to="#" onClick={closeMenu} className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">Contact</Link>
 
             <button onClick={() => setView('search')} className="flex items-center justify-between text-left group w-full">
               <span className="font-venice text-6xl font-black text-[#ff5722] uppercase tracking-tighter leading-tight">Search</span>
@@ -195,7 +195,7 @@ const MobileMenu = ({ isOpen, closeMenu }) => {
           <ul className="space-y-6">
             {(activeTab === 'categories' ? productCategories : productTypes).map((item, idx) => (
               <li key={idx}>
-                <Link to="/products" onClick={closeMenu} className="flex items-center justify-between group">
+                <Link to="#" onClick={closeMenu} className="flex items-center justify-between group">
                   <div className="flex items-center gap-4">
                     {item.icon ? (
                       <img src={item.icon} alt={item.name} className="w-16 h-16 object-contain rounded-xl" />
@@ -310,9 +310,9 @@ const Navbar = () => {
                 )}
               </button>
 
-              <NavItem name="Recipes" path="/recipes" />
-              <NavItem name="About Us" path="/about" />
-              <NavItem name="News" path="/news" />
+              <NavItem name="Recipes" path="#" />
+              <NavItem name="About Us" path="#" />
+              <NavItem name="News" path="#" />
 
               <button
                 onClick={() => {
@@ -344,8 +344,6 @@ const Navbar = () => {
                 <div className="bg-white text-black p-1 rounded-lg group-hover:bg-black group-hover:text-white transition-colors"><FaAngleRight className="text-xs" /></div>
               </button>
             </div>
-
-
             <div className="flex lg:hidden items-center gap-2 ml-auto z-50 pointer-events-auto">
 
               <button className="border border-white/30 text-white px-3 py-2 rounded-xl font-bold text-xs hover:bg-white/10 transition-colors">
@@ -409,14 +407,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-

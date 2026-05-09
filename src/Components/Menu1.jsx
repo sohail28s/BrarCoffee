@@ -272,12 +272,12 @@ const products = [
   },
 ];
 
-const Menu1 = () => {
+const Menu = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const filteredProducts = activeCategory === 'all'
-    ? products
+   ? products.filter(p => p.category !== 'samosas')
     : products.filter(p => p.category === activeCategory);
 
   const sliderRef = useRef(null);
@@ -479,24 +479,7 @@ const Menu1 = () => {
   );
 };
 
-export default Menu1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default Menu;
 
 
 
