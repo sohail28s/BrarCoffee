@@ -336,7 +336,7 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex items-center space-x-4 pointer-events-auto">
               <button className="bg-white text-black px-5 py-2.5 rounded-lg font-bold text-sm flex items-center gap-2 hover:bg-gray-100 transition-colors">
-                Find Product
+                Find Products
                 <div className="bg-black text-white p-1 rounded-lg"><FaAngleRight className="text-xs" /></div>
               </button>
               <button className="border border-white/30 text-white px-5 py-2.5 rounded-lg font-bold text-sm flex items-center gap-2 hover:bg-white hover:text-black transition-colors group">
